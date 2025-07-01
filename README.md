@@ -14,10 +14,6 @@ This project is a full machine learning pipeline that predicts whether a patient
 * [🧠 ML Approach](#-ml-approach)
 * [📈 Model Evaluation](#-model-evaluation)
 * [🖥️ Live App](#-live-app)
-* [📊 Visualizations](#-visualizations)
-* [🗂️ Project Structure](#-project-structure)
-* [🚀 How to Run Locally](#-how-to-run-locally)
-* [💡 Future Improvements](#-future-improvements)
 
 ---
 
@@ -86,27 +82,3 @@ Predicted
 🔗 [https://your-app-name.streamlit.app](https://your-app-name.streamlit.app)
 
 Just enter patient values and click **Predict** to see the result!
-
----
-
-## 📊 Visualizations
-
-The notebook includes:
-
-* 🔹 Side-by-side confusion matrices
-* 🔹 ROC curve comparison (KNN vs SVM)
-* 🔹 Accuracy and F1 bar chart
-* 📁 All images saved in `images/` folder (optional)
-
----
-
-## 🗂️ Project Structure
-
-```
-📁 diabetes-prediction-knn
-├── 📁 app/
-│   ├── streamlit_app.py
-│   ├── requirements.txt
-│   └── knn_model.pkl
-├── diabetes_knn_svm.ipynb
-└── README.md
