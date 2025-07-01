@@ -109,5 +109,4 @@ The notebook includes:
 │   ├── requirements.txt
 │   └── knn_model.pkl
 ├── diabetes_knn_svm.ipynb
-├── README.md
-└── images/ (optional)
+└── README.md
