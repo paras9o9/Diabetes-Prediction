@@ -2,9 +2,12 @@ import streamlit as st
 import numpy as np
 import pickle
 
-# Load the saved model
-with open('knn_model.pkl', 'rb') as f:
-    model = pickle.load(f)
+current_dir = os.path.dirname(__file__)
+model_path = os.path.join(current_dir, 'knn_model.pkl')
+
+# Load model
+with open(model_path, 'rb') as f:
+    scaler, model = pickle.load(f)
 
 # App Title
 st.title("🧪 Diabetes Prediction App")
